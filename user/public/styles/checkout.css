@@ -1,0 +1,398 @@
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    width: 100%;
+    float: left;
+}
+
+@media only screen and (min-width: 600px) {
+
+    /* For tablets: */
+    .col-s-1 {
+        width: 8.33%;
+    }
+
+    .col-s-2 {
+        width: 16.66%;
+    }
+
+    .col-s-3 {
+        width: 25%;
+    }
+
+    .col-s-4 {
+        width: 33.33%;
+    }
+
+    .col-s-5 {
+        width: 41.66%;
+    }
+
+    .col-s-6 {
+        width: 50%;
+    }
+
+    .col-s-7 {
+        width: 58.33%;
+    }
+
+    .col-s-8 {
+        width: 66.66%;
+    }
+
+    .col-s-9 {
+        width: 75%;
+    }
+
+    .col-s-10 {
+        width: 83.33%;
+    }
+
+    .col-s-11 {
+        width: 91.66%;
+    }
+
+    .col-s-12 {
+        width: 100%;
+    }
+
+    .container {
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+
+    /* For desktop: */
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .content-in .box-right {
+        display: none;
+    }
+}
+
+.container {
+    margin: 100px auto;
+}
+
+.padding-form {
+    padding: 15px;
+
+}
+
+.checkout-methods {
+    width: 38%;
+    float: left;
+
+}
+
+.main-div {
+    float: left;
+    margin-left: 175px;
+    border: 1px solid rgb(111, 111, 211);
+    height: 505px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+.check-out-card {
+    width: 50%;
+    float: right;
+    background-color: #00a2ff;
+
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    margin-top: 50px;
+    margin-bottom: 80px;
+
+    position: relative;
+
+    height: auto;
+
+    border-radius: 16px;
+    background-color: white;
+
+    border: 2px solid #2f312f;
+    box-sizing: border-box;
+    box-shadow: 6px 6px 0px #5a7d61;
+    border-radius: 8px;
+}
+
+.check-out-card .heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.check-out-card input {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 10px;
+    padding: 14px 24px;
+    width: 90%;
+    height: 10%;
+    left: 1048px;
+    top: 16px;
+    background: #FFFFFF;
+    border: 2px solid #1B1B1B;
+    box-sizing: border-box;
+    border-radius: 16px;
+    transition: 0.2s;
+}
+
+.exp-cvc {
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.expiration {
+    font-size: 0.75rem;
+    width: 50%;
+    margin-right: 20px;
+}
+
+.security {
+    font-size: 0.75rem;
+    width: 50%;
+    margin-left: 20px;
+}
+
+
+.row {
+    margin-top: 10px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 26px;
+    margin: 15px auto;
+}
+
+.note {
+    font-size: 14px;
+    color: black;
+    font-style: italic;
+}
+
+span {
+    color: red;
+}
+
+input {
+    width: 100%;
+    padding: 8px 10px;
+    height: 40px;
+    font-size: 15px;
+    border: 1px solid #dbdbdb;
+
+}
+
+textarea {
+    max-width: 100%;
+    min-width: 20%;
+    min-height: 70px;
+    padding: 8px 10px;
+    border: 1px solid #dbdbdb;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.trace {
+    border-bottom: 3px solid #dbdbdb;
+    border-top: 3px solid #dbdbdb;
+    font-weight: bold;
+    padding: 5px 0px;
+}
+
+.pay {
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.pay:last-child {
+    border: none;
+}
+
+#form {
+    border: 1px solid rgb(111, 111, 211);
+    border-radius: 15px;
+}
+
+.pay button:hover {
+    opacity: 0.7;
+}
+
+.payments {
+    margin: 14px 0px;
+}
+
+.radio-payments {
+    width: auto;
+    cursor: pointer;
+}
+
+.label-payments {
+    font-size: 14px;
+}
+
+#km a {
+
+    margin-top: 15px;
+    text-decoration: none;
+    color: #00a2ff;
+}
+
+#btn-pay {
+    margin: 20px auto;
+    background-color: #FEAA48;
+    color: white;
+    width: 320px;
+    height: 52px;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.radio-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.radio-item [type="radio"] {
+    display: none;
+}
+
+.radio-item+.radio-item {
+    margin-top: 15px;
+}
+
+.radio-item label {
+    display: block;
+    padding: 20px 60px;
+    background: #e5e5e9;
+    border: 2px solid rgba(226, 216, 216, 0.1);
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    min-width: 250px;
+    white-space: nowrap;
+    position: relative;
+    transition: 0.4s ease-in-out 0s;
+}
+
+.radio-item label:after,
+.radio-item label:before {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+}
+
+.radio-item label:after {
+    height: 19px;
+    width: 19px;
+    border: 2px solid #5BC2AE;
+    left: 19px;
+    top: calc(50% - 10px);
+}
+
+.radio-item label:before {
+    background: #5BC2AE;
+    height: 20px;
+    width: 20px;
+    left: 21px;
+    top: calc(50%-5px);
+    /* transform: scale(5); */
+    opacity: 0;
+    visibility: hidden;
+    /* transition: 0.4s ease-in-out 0s; */
+}
+
+.radio-item [type="radio"]:checked~label {
+    border-color: #5BC2AE;
+}
+
+.radio-item [type="radio"]:checked~label::before {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+.div-pay label {
+    float: left;
+}
+
+.div-pay span {
+    float: right;
+}
+
+#subtotal {
+    font-size: 22px;
+}
+
+#total {
+    font-size: 24px;
+    color: #5BC2AE;
+}

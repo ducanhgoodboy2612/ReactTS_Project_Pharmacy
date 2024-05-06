@@ -1,0 +1,80 @@
+.AnhDiVao1 {
+    opacity: 1;
+}
+
+.AnhDiVao1.Left1 {
+    animation: MLeft1 2s ease forwards;
+    /* keep the final state */
+}
+
+@keyframes MLeft1 {
+    from {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.AnhDiVao2 {
+    opacity: 1;
+}
+
+.AnhDiVao2.Left2 {
+    animation: MLeft2 2s ease forwards;
+}
+
+@keyframes MLeft2 {
+    from {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.AnhDiVao3 {
+    opacity: 1;
+}
+
+.AnhDiVao3.Right3 {
+    animation: MRight3 2s ease forwards;
+}
+
+@keyframes MRight3 {
+    from {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.AnhDiVao4 {
+    opacity: 1;
+}
+
+.AnhDiVao4.Right4 {
+    animation: MRight4 2s ease forwards;
+}
+
+@keyframes MRight4 {
+    from {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
