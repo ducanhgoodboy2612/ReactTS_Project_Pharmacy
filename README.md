@@ -11,6 +11,7 @@ To run this project locally after cloning the repository, follow these steps:
 3. Install dependencies by running `npm install` in the terminal.
 4. Set up the necessary databases using SQL Server Management Studio or a similar tool.
 5. Configure the database connection in the project.
+6. `npm start` to run project.
 
 ## Features
 ### User Functions
